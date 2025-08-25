@@ -425,39 +425,50 @@ const Body = () => {
       {/* Seventh Section End */}
 
       {/* Eighth Section */}
-      <section className="w-full">
-        <div className="flex justify-between w-full items-center pt-[42px] pb-[42px] pl-[24px] pr-[24px] gap-5 max-md:flex-col">
-          <motion.div
-            initial={{ opacity: 0, x: -100 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              delay: 0.3,
-              damping: 20,
-            }}
-            className="flex flex-col w-[50%] max-md:w-full"
-          >
-            <h1 className="text-start text-4xl font-semibold pb-[24px]">
-              Let's Work Together
-            </h1>
-            <p className="mb-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              blanditiis perferendis possimus ducimus, maxime labore? Natus
-              cupiditate tenetur quis voluptates eligendi nemo ipsam fuga neque
-              magnam. Nesciunt temporibus sint numquam.
-            </p>
-            <div className="flex items-center justify-start gap-5">
-              <img src="/discord.svg" alt="" />
-              <img src="/dribbble.svg" alt="" />
-              <img src="/fb.svg" alt="" />
-              <img src="/insta.svg" alt="" />
-              <img src="/behance.svg" alt="" />
-            </div>
-          </motion.div>
+    <section className="w-full">
+  <div className="flex justify-between w-full items-center pt-[42px] pb-[42px] pl-[24px] pr-[24px] gap-5 max-md:flex-col">
+    <motion.div
+      initial={{ opacity: 0, x: -100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{
+        type: "spring",
+        stiffness: 100,
+        delay: 0.3,
+        damping: 20,
+      }}
+      className="flex flex-col w-[50%] max-md:w-full"
+    >
+      <h1 className="text-start text-4xl font-semibold pb-[24px]">
+        Let's Work Together
+      </h1>
 
-        </div>
-      </section>
+      {/* Full width paragraph */}
+      <p className="w-full text-justify">
+        I am still at the beginning of my journey in web development, with limited experience in building websites or APIs. However, I am deeply excited about exploring this field and highly motivated to learn and grow. My curiosity drives me to experiment, practice, and keep improving my skills step by step. I am also very eager to participate in projects, collaborate with others, and gain hands-on experience that will help me become a stronger developer. For me, this is not just about coding but also about building meaningful connections and learning together with like-minded people.
+      </p>
+
+      {/* Social icons with links */}
+      <div className="flex items-center justify-start gap-5 pt-4">
+        <a href="https://discord.com/channels/@me" target="_blank" rel="noopener noreferrer">
+          <img src="/discord.svg" alt="Discord" />
+        </a>
+        <a href="https://dribbble.com/lalu-badapandara" target="_blank" rel="noopener noreferrer">
+          <img src="/dribbble.svg" alt="Dribbble" />
+        </a>
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <img src="/fb.svg" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/b__lalu" target="_blank" rel="noopener noreferrer">
+          <img src="/insta.svg" alt="Instagram" />
+        </a>
+        <a href="https://behance.net" target="_blank" rel="noopener noreferrer">
+          <img src="/behance.svg" alt="Behance" />
+        </a>
+      </div>
+    </motion.div>
+  </div>
+</section>
+
       {/* Eighth Section End*/}
     </>
   );

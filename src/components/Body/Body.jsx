@@ -19,8 +19,8 @@ const Body = () => {
         className="w-full"
       >
         <div className="flex justify-between border border-black-5 rounded-xl shadow-xl flex-row-reverse items-center pt-[42px] pb-[42px] pl-[24px] pr-[24x] max-md:!flex-col custom-radial-bg">
-          <div className="flex  w-full">
-            <img src="/1.png" alt="" />
+          <div className="flex  w-full rounded-lg">
+            <img src="/1.png" alt="" className="rounded-full z-10 relative transition-transform duration-300 hover:scale-110"/>
           </div>
           <div className="flex flex-col gap-7">
             <h2 className="text-xl font-semibold">Portfolio | Lalu Badapandara</h2>
@@ -29,7 +29,7 @@ const Body = () => {
                 Hi, I’m Lalu Badapandara, a passionate Full-Stack Web Developer currently learning and building projects using the MERN stack (MongoDB, Express.js, React, Node.js). I enjoy turning ideas into real-world applications with clean design, scalable backend systems, and smooth user experiences.
             </p>
             <button className="bg-[#2D2D2D] cursor-pointer text-white p-4 w-[150px] h-[55px] flex items-center justify-center">
-              Contact
+              Contact 9348359180
             </button>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Body = () => {
               }}
               className="text-xl font-semibold text-center"
             >
-              Branding | Image Making
+              MERN | FULL STACK
             </motion.h2>
             <motion.h1
               initial={{ opacity: 0, x: 100 }}
@@ -80,7 +80,7 @@ const Body = () => {
               }}
               className="text-7xl font-semibold w-full text-center"
             >
-              Visual Designer
+              DEVELOPER
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: -100 }}
@@ -215,17 +215,18 @@ const Body = () => {
             }}
             className="flex justify-center items-center gap-5 w-full flex-col"
           >
-            <img src="/10.jpeg" alt="" className="w-full" />
+            <img src="/10.png" alt="" className="w-50px" />
             <div className="flex items-start justify-center gap-2 flex-col">
               <h2 className="text-xl text-black font-semibold">
-                Product Design
+                Hotel Landing Page
               </h2>
               <p className="text-sm text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-                reprehenderit sit sequi fugiat rem nobis adipisci placeat
-                repellendus soluta corporis fuga voluptates exercitationem
-                voluptas, modi laboriosam natus quis iure consequatur.
+                I created a landing page for a hotel named Paul's biriyani with the help of one of my friend. He gave the figma design to make this website which he worked on. Then i aslo tried to design it. 
+
+
+
               </p>
+              <a href="https://github.com/lalubadapandara/pauls-biriyani">View Github Repository</a>
             </div>
           </motion.div>
           <motion.div
@@ -239,17 +240,15 @@ const Body = () => {
             }}
             className="flex justify-center items-center gap-5 w-full flex-col"
           >
-            <img src="/10.jpeg" alt="" className="w-full" />
+            <img src="/logo.jpg" alt="" className="w-full" />
             <div className="flex items-start justify-center gap-2 flex-col">
               <h2 className="text-xl text-black font-semibold">
                 Visual Design
               </h2>
               <p className="text-sm text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-                reprehenderit sit sequi fugiat rem nobis adipisci placeat
-                repellendus soluta corporis fuga voluptates exercitationem
-                voluptas, modi laboriosam natus quis iure consequatur.
+                Apna stays is a project developed using react js. Where you can book your room while travelling anywhere. Here different pages like about, owner, rooms, experience etc is added.
               </p>
+              <a href="https://github.com/lalubadapandara/apna-stays">View Git Hub Repository.</a>
             </div>
           </motion.div>
           <motion.div
@@ -263,13 +262,13 @@ const Body = () => {
             }}
             className="flex justify-center items-center gap-5 w-full flex-col"
           >
-            <img src="/11.jpeg" alt="" className="w-full" />
+            <img src="/plus.jpg" alt="" className="w-50px" />
             <div className="flex items-start justify-center gap-2 flex-col">
               <h2 className="text-xl text-black font-semibold">Backend Project</h2>
               <p className="text-sm text-gray-500">
-                Learnig backend with using Node.js, Express and MongoDB. With Node.js, I work on building small applications, while Express helps me to manage routes, middleware. MongoDB allow me to handle data in a flexibel and powerful way, making it easy to store and retrive information for my projects.
+                Learnig backend with using Node.js, Express and MongoDB. With Node.js, I work on building small applications, while Express helps me to manage routes, middleware. MongoDB allow me to handle data in a flexibel and powerful way.
               </p>
-              <p>You can find the project i am working on github.</p>
+              <a href="https://github.com/lalubadapandara/first-backend-project">View Git hub Repository</a>
               
             </div>
           </motion.div>

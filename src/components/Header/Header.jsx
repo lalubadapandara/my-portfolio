@@ -42,24 +42,10 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link
-                to="/about"
-                className={`block ${
-                  isOpen ? "" : "max-md:hidden"
-                } pr-4 pl-4 pt-2 pb-2 hover:text-gray-600`}
-              >
-                About
-              </Link>
+                <a href="https://leetcode.com/u/b_lalu/">Leet Code</a>
             </li>
             <li>
-              <Link
-                to="/services"
-                className={`block ${
-                  isOpen ? "" : "max-md:hidden"
-                } pr-4 pl-4 pt-2 pb-2 hover:text-gray-600`}
-              >
-                Services
-              </Link>
+                <a href="https://github.com/lalubadapandara">Git Hub</a>
             </li>
             <li>
               <Link
